@@ -24,7 +24,7 @@ Tab:AddParagraph("American English","This Script is a compilation of all the gam
 
 local Tab = Window:MakeTab({
 	Name = "+Blox Fruit",
-	Icon = "rbxassetid://10723344088",
+	Icon = "rbxassetid://10723386787",
 	PremiumOnly = false
 })
 
