@@ -11,7 +11,7 @@ local Window = OrionLib:MakeWindow({Name = "Ducky V0.1 Trial", HidePremium = fal
 
 local Tab = Window:MakeTab({
 	Name = "+Status & Info",
-	Icon = "rbxassetid://10723344088",
+	Icon = "rbxassetid://10709768347",
 	PremiumOnly = false
 })
 
