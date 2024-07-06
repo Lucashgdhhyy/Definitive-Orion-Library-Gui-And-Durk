@@ -1,13 +1,26 @@
 local Player = game.Players.LocalPlayer
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 OrionLib:MakeNotification({
-	Name = "Hello "..Player.Name.." Thx For Use:).",
+	Name = "Hello "..Player.Name.." Thx For Use Trial Version.",
 	Content = "",
 	Image = "rbxassetid://4483345998",
 	Time = 5
 })
 
-local Window = OrionLib:MakeWindow({Name = "Ducky V0.1", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest", IntroText = "Ducky Loading"})
+local Window = OrionLib:MakeWindow({Name = "Ducky V0.1 Trial", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest", IntroText = "Ducky Loading"})
+
+local Tab = Window:MakeTab({
+	Name = "+Status & Info",
+	Icon = "rbxassetid://10723344088",
+	PremiumOnly = false
+})
+
+Tab:AddParagraph("Status:","🟨Trial Version")
+
+Tab:AddParagraph("Portugues Brasil","Este Script e uma compilação de todos os jogos que eu ja trouse scripts✨.Esse Script Somente suporta linguagem Inglês Por enquanto..")
+
+Tab:AddParagraph("American English","This Script is a compilation of all the games I've ever scripted✨")
+
 
 local Tab = Window:MakeTab({
 	Name = "+Blox Fruit",
@@ -16,7 +29,7 @@ local Tab = Window:MakeTab({
 })
 
 OrionLib:MakeNotification({
-	Name = "User "..Player.Name.." Free ",
+	Name = "User "..Player.Name.." This Hub Are On Trial ",
 	Content = "75% Tabs Will Open",
 	Image = "rbxassetid://4483345998",
 	Time = 10
