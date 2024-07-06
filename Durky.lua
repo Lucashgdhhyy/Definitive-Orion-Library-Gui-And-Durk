@@ -15,6 +15,13 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 
+Tab:AddButton({
+	Name = "Join In Discord(Not Finish)",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+
 Tab:AddParagraph("Status:","🟨Trial Version")
 
 Tab:AddParagraph("Portugues Brasil","Este Script e uma compilação de todos os jogos que eu ja trouse scripts✨.Esse Script Somente suporta linguagem Inglês Por enquanto..")
@@ -22,7 +29,41 @@ Tab:AddParagraph("Portugues Brasil","Este Script e uma compilação de todos os 
 Tab:AddParagraph("American English","This Script is a compilation of all the games I've ever scripted✨")
 
 local Tab = Window:MakeTab({
-	Name = "+Keyboard & Universal",
+	Name = "+Keyboard",
+	Icon = "rbxassetid://10723386787",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Keyboard",
+	Callback = function()
+      		print("button pressed")   loadstring(game:HttpGet(('https://raw.githubusercontent.com/manimcool21/Keyboard-FE/main/Protected%20(3).lua'),true))()
+  	end    
+})
+
+
+local Tab = Window:MakeTab({
+	Name = "+Aimbot",
+	Icon = "rbxassetid://10723386787",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Aimbot",
+	Callback = function()       loadstring(game:HttpGet("https://pastebin.com/raw/ZEse1u6p"))()
+      		print("button pressed") 
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Aimbot + Fov",
+	Callback = function()       loadstring(game:HttpGet("https://pastebin.com/edit/F9fAGjUy"))()
+      		print("button pressed") 
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "+Admin",
 	Icon = "rbxassetid://10723386787",
 	PremiumOnly = false
 })
