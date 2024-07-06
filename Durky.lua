@@ -7,7 +7,7 @@ OrionLib:MakeNotification({
 	Time = 5
 })
 
-local Window = OrionLib:MakeWindow({Name = "Ducky V0.3 Trial", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest", IntroText = "Ducky Loading"})
+local Window = OrionLib:MakeWindow({Name = "Durky V0.3 Trial", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest", IntroText = "Durky Loading"})
 
 local Tab = Window:MakeTab({
 	Name = "+Status & Info",
