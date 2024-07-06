@@ -21,6 +21,11 @@ Tab:AddParagraph("Portugues Brasil","Este Script e uma compilação de todos os 
 
 Tab:AddParagraph("American English","This Script is a compilation of all the games I've ever scripted✨")
 
+local Tab = Window:MakeTab({
+	Name = "+Keyboard & Universal",
+	Icon = "rbxassetid://10723386787",
+	PremiumOnly = false
+})
 
 local Tab = Window:MakeTab({
 	Name = "+Blox Fruit",
