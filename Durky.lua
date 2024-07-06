@@ -30,7 +30,7 @@ local Tab = Window:MakeTab({
 
 OrionLib:MakeNotification({
 	Name = "User "..Player.Name.." This Hub Are On Trial ",
-	Content = "75% Tabs Will Open",
+	Content = "",
 	Image = "rbxassetid://4483345998",
 	Time = 10
 })
