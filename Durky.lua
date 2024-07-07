@@ -27,9 +27,8 @@ Tab:AddParagraph("Status:","🟨Trial Version")
 
 Tab:AddParagraph("Portugues Brasil","Este Script e uma compilação de todos os jogos que eu ja trouse scripts✨.Esse Script Somente suporta linguagem Inglês Por enquanto..")
 
-Tab:AddParagraph("Licencia Pt-Br","# Licença de Uso do Script Lua
-
-**Termos de Uso:**
+Tab:AddParagraph("Licencia Pt-Br","
+Termos de Uso
 Este script Lua é fornecido sob os termos desta licença. Ao utilizar este script, você concorda com os seguintes termos.
 
 **Direitos Autorais:**
@@ -43,21 +42,6 @@ Você está autorizado a usar e distribuir este script, desde que inclua o recon
 - Você não pode remover ou ocultar o nome do canal")
 
 Tab:AddParagraph("English USA","This Script is a compilation of all the games I've ever scripted✨")
-
-Tab:AddParagraph("Licence English","# Lua Script Use License
-
-**Terms of use:**
-This Lua script is provided under the terms of this license. By using this script, you agree to the following terms.
-
-**Copyright:**
-The Lua script and all related content are the exclusive property of **LtGamesRoblox**. All rights reserved.
-
-**Use license:**
-You are authorized to use, modify, and distribute this script as long as you include explicit acknowledgment of **LtGamesRoblox** as the original creator of the project. The channel name must be clearly visible on all copies or significantly altered versions of the script.
-
-**Limitations:**
-- You may not sell this script or any modified version of it.
-- You cannot remove or hide the channel name")
 
 local Tab = Window:MakeTab({
 	Name = "+Keyboard",
