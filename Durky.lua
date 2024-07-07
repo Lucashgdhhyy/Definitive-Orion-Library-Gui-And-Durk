@@ -1,3 +1,4 @@
+print("What you are make here?") warn("Found nickname injecting script in:"..Player.Name..".")
 local Player = game.Players.LocalPlayer
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 OrionLib:MakeNotification({
@@ -26,7 +27,37 @@ Tab:AddParagraph("Status:","🟨Trial Version")
 
 Tab:AddParagraph("Portugues Brasil","Este Script e uma compilação de todos os jogos que eu ja trouse scripts✨.Esse Script Somente suporta linguagem Inglês Por enquanto..")
 
-Tab:AddParagraph("American English","This Script is a compilation of all the games I've ever scripted✨")
+Tab:AddParagraph("Licencia Pt-Br","# Licença de Uso do Script Lua
+
+**Termos de Uso:**
+Este script Lua é fornecido sob os termos desta licença. Ao utilizar este script, você concorda com os seguintes termos.
+
+**Direitos Autorais:**
+O script Lua e todo o conteúdo relacionado são propriedade exclusiva de **LtGamesRoblox**. Todos os direitos reservados.
+
+**Licença de Uso:**
+Você está autorizado a usar e distribuir este script, desde que inclua o reconhecimento explícito de **LtGamesRoblox** como o criador original do projeto. O nome do canal deve ser claramente visível em todas as cópias ou versões significativamente alteradas do script.
+
+**Limitações:**
+- Você não pode vender este script ou qualquer versão modificada do mesmo.
+- Você não pode remover ou ocultar o nome do canal")
+
+Tab:AddParagraph("English USA","This Script is a compilation of all the games I've ever scripted✨")
+
+Tab:AddParagraph("Licence English","# Lua Script Use License
+
+**Terms of use:**
+This Lua script is provided under the terms of this license. By using this script, you agree to the following terms.
+
+**Copyright:**
+The Lua script and all related content are the exclusive property of **LtGamesRoblox**. All rights reserved.
+
+**Use license:**
+You are authorized to use, modify, and distribute this script as long as you include explicit acknowledgment of **LtGamesRoblox** as the original creator of the project. The channel name must be clearly visible on all copies or significantly altered versions of the script.
+
+**Limitations:**
+- You may not sell this script or any modified version of it.
+- You cannot remove or hide the channel name")
 
 local Tab = Window:MakeTab({
 	Name = "+Keyboard",
