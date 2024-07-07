@@ -25,22 +25,6 @@ Tab:AddButton({
 
 Tab:AddParagraph("Status:","🟨Trial Version")
 
-Tab:AddParagraph("Portugues Brasil","Este Script e uma compilação de todos os jogos que eu ja trouse scripts✨.Esse Script Somente suporta linguagem Inglês Por enquanto..")
-
-Tab:AddParagraph("Licencia Pt-Br","
-Termos de Uso
-Este script Lua é fornecido sob os termos desta licença. Ao utilizar este script, você concorda com os seguintes termos.
-
-**Direitos Autorais:**
-O script Lua e todo o conteúdo relacionado são propriedade exclusiva de **LtGamesRoblox**. Todos os direitos reservados.
-
-**Licença de Uso:**
-Você está autorizado a usar e distribuir este script, desde que inclua o reconhecimento explícito de **LtGamesRoblox** como o criador original do projeto. O nome do canal deve ser claramente visível em todas as cópias ou versões significativamente alteradas do script.
-
-**Limitações:**
-- Você não pode vender este script ou qualquer versão modificada do mesmo.
-- Você não pode remover ou ocultar o nome do canal")
-
 Tab:AddParagraph("English USA","This Script is a compilation of all the games I've ever scripted✨")
 
 local Tab = Window:MakeTab({
